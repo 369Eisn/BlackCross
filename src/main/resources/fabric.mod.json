@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "blackcross",
+  "version": "${version}",
+  "name": "BlackCross",
+  "description": "BlackCross title screen and mods folder shortcut.",
+  "authors": [
+    "BlackCross"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.blackcross.BlackCrossClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
